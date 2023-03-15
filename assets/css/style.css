@@ -1,0 +1,100 @@
+@import url('./reset.css');
+:root{
+  font-size: 10px;
+  --nav-bg-color: #121212;
+  --nav-text-color: #FFFFFF;
+  --button-bg-color: #0052CE;
+  --button-text-color: #FFFFFF;
+}
+body{
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+ul li a{
+  color: var(--nav-text-color);
+}
+/* ////////////////////////////// */
+/* MENU 1 */
+nav.menu1{
+  background-color: var(--nav-bg-color);
+  height: 6rem;
+  padding: 0 2.4rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.links1{
+  display: flex;
+  gap: 3rem;
+}
+a.button1{
+  padding: 1rem 1.6rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border-radius: .8rem;
+}
+/* ////////////////////////////// */
+/* MENU 2 */
+nav.menu2{
+  background-color: var(--nav-bg-color);
+  height: 6rem;
+  padding: 0 2.4rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.links2{
+  display: flex;
+  gap: 3rem;
+}
+a.button2{
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+}
+/* ////////////////////////////// */
+/* MENU 3 */
+nav.menu3{
+  background-color: var(--nav-bg-color);
+  height: 6rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 2.4rem;
+}
+ul.links3{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+a.button3 {
+  background-color: var(--button-bg-color);
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+}
+/* ////////////////////////////// */
+/* MENU 4 */
+
+nav.menu4{
+  background-color: var(--nav-bg-color);
+  color: var(--nav-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  padding: 1rem 1.6rem;
+  margin: 1rem;
+}
+ul.links4{
+display: flex;
+gap: 3rem;
+padding: 1rem 1.6rem;
+}
+a.logo4{
+  padding: 1rem 1.6rem;
+}
